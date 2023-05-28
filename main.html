@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="_assets/_css/elements.css">
+    <link rel="stylesheet" href="_assets/_css/menu.css">
+    <link rel="stylesheet" href="_assets/_css/classes.css">
+    <link rel="stylesheet" href="_assets/_css/style.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label"for="close-menu" title="close menu"></label>
+    <aside class = "menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">LOGO</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#top3">Top-3</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#grid-two">Outros</a></li>
+                    <li><a href="#pricing">Preços</a></li>
+                    <li><a href="#contact   ">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </aside>
+
+    <div class = "menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Streaming de música | Descubra qual a melhor plataforma</h2>
+                <p>Assim como os streamings de filmes e séries, os streamings de música ganharam força nos últimos tempos. Neste conteúdo você conhecerá as principais plataformas para ouvir música quando e onde quiser.</p>
+            </div>
+
+            <div class="intro-img">
+                <img src="_assets/_img/music.svg" alt="Mulher usando notebook no cifrão do Bitcoin">
+            </div>
+        </div> 
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Top 3 Streamings</h2>
+            <h6><a href="https://open.spotify.com/" target="_blank">Spotify</a></h6>
+            <p>É um dos serviços de streaming mais conhecidos no mundo da música. Sua lista de recursos e vantagens é enorme. </p>
+           <h6><a href="https://www.amazon.com.br/dp/8576086972?tag=inlivros-20&linkCode=osi&th=1&psc=1&keywords=livros%20de%20html%20e%20css" target="_blank">Deezer</a></h6>
+            <p>Com 56 milhões de músicas disponíveis para escutar, Deezer é outro aplicativo de músicas a ser considerado na sua escolha pelo melhor.</p>
+            <h6><a href="https://www.amazon.com.br/music?ie=UTF8" target="_blank">Amazon Music</a></h6>
+            <p>O Amazon Music é, como os outros, um aplicativo de streaming de música. Ele permite que você escute diversos artistas, playlists e singles a depender do seu plano.</p>
+        </div>
+    </section>
+
+    <section id ="top3" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class = "grid-main-heading">Melhores streamings</h2>
+            <p class = "grid-description">Alguns beneficios de cada</p>
+            <div class="grid">
+                <article>
+                    <h3>Spotify</h3>
+                    <p>Mais de 82 milhões de músicas e uma grande variedade de playlists que são feitas por gêneros musicais, separadas por décadas ou para diferentes tipos de situação. Você pode ouvir suas músicas no modo offline se fizer download delas; </p>
+                </article>
+                <article>
+                    <h3>Deezer</h3>
+                    <p>Além das milhares de músicas disponíveis, seus usuários encontram uma seleção de grandes podcasts e um design com visual bem intuitivo, o que incentiva uma navegação pelos diversos recursos da plataforma. </p>
+                </article>
+                <article>
+                    <h3>Amazon</h3>
+                    <p>Para garantir a opção mais completa, o usuário precisa pagar R$16,90 pelo plano individual. O Amazon Music está disponível tanto para Android quanto para iOS, possui compatibilidade com os dispositivos Echo, Smart TVs e Smartwatches. </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id ="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class = "grid-main-heading">Gallery</h2>
+            <p class = "grid-description">Fotos aleatorias colocadas com intuito de aprender.</p>
+            <div class="grid">
+                <div class ="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1581315628079-f093bb040803?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="random image"/>
+                </div>
+                <div class ="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="random image"/>
+                </div>
+                <div class ="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="random image"/>
+                </div>
+                <div class ="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="random image"/>
+                </div>
+                <div class ="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="random image"/>
+                </div>
+                <div class ="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="random image"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id ="grid-two" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class = "grid-main-heading">Outros</h2>
+            <p class = "grid-description">Outros aplicativos menos famosos</p>
+            <div class="grid">
+                <article>
+                    <h3>Tidal</h3>
+                    <p>Tidal é um aplicativo de streaming de músicas focado em qualidade. Isto porque a plataforma oferece planos voltados para a qualidade do som, não se preocupando somente com recursos offline e ausência de propagandas.
+                    </p>
+                </article>
+                <article>
+                    <h3>Resso</h3>
+                    <p>O algoritmo dele trabalha de uma forma mais individual que os demais e se diferencia pela possibilidade de compartilhar e comentar as faixas de música — recursos indisponíveis nos outros aplicativos.</p>
+                </article>
+                <article>
+                    <h3>SoundCloud</h3>
+                    <p>O SoundCloud talvez seja o aplicativo que mais possui variedade de conteúdo amador. Isto não é um ponto fraco, mas mostra que as pessoas publicam com mais facilidade nesta plataforma do que em outras. </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Preços</h2>
+            <p>Os preços dos planos oferecidos pelos aplicativos de música são semelhantes. Por isso, a escolha por aderir a um deles deve levar em conta, principalmente, as funcionalidades e as bibliotecas que mais suprirem suas necessidades.</p>
+            <p>Uma boa dica na hora da escolha é buscar pelos seus artistas favoritos em determinado aplicativo, mesmo que eles estejam disponíveis em várias plataformas. </p>
+
+
+            <div class = "responsive-table">
+                <table>
+                    <caption>Pricing Table</caption>
+                    <thead>
+                        <tr>
+                        <th>Aplicativo</th>
+                        <th>Plano individual</th>
+                        <th>Plano Duo</th>
+                        <th>Plano Família</th>
+                        <th>Plano Estudantes</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><b>Spotify</b></td>
+                            <td>R$16,90</td>
+                            <td>R$21,90</td>
+                            <td>R$26,90  (6 pessoas)</td>
+                            <td>R$8,50</td>
+                        </tr>
+                        <tr>
+                            <td><b>Deezer</b></td>
+                            <td>R$16,90</td>
+                            <td>-</td>
+                            <td>R$26,90 (6 pessoas)</td>
+                            <td>R$8,45</td>
+                        </tr>
+                        <tr>
+                            <td><b>Amazon Music</b></td>
+                            <td>R$16,90</td>
+                            <td>-</td>
+                            <td>R$25,90 (6 pessoas)</td>
+                            <td>-R$8,50</td>
+                        </tr>
+                        
+                    </tbody>
+                
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Entre em contato: </h2>
+                <p>O seu endereço de e-mail não será publicado e não postaremos nenhuma informação sua em nosso site.</p>
+            </div>
+
+            <div class="intro-img">
+                <img src="_assets/_img/contact.svg" alt="Mulher usando notebook no cifrão do Bitcoin">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Entre em contato</legend>
+
+                    <div class = "form-group">
+                        <label for = "first-name">Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your Name">
+
+                    </div>
+
+                    <div class = "form-group">
+                        <label for = "last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                    </div>
+
+                    <div class = "form-group">
+                        <label for = "email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="name@email.com">
+                    </div>
+
+                    <div class = "form-group full-widht">
+                        <label for = "message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+
+                    <div class = "form-group">
+                        <button type="submit">Enviar mensagem</button>
+                    </div>
+
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    
+    <footer id = "footer" class="footer white-bg">
+        <p>© 2023, Mateus Pierre - Estudando Programação Web.</p>
+    </footer>
+    
+    <a class="back-to-top" href="#"><b>➤</b></a>
+
+</body>
+</html>
