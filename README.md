@@ -1,2 +1,2 @@
-# Landing-Page
-My first landing page
+# Landing Page
+My first landing page :)
